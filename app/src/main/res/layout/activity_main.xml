@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="0dp"
+        android:layout_height="162dp"
+        android:layout_marginBottom="33dp"
+        android:layout_marginTop="43dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+
+            android:id="@+id/textView41"
+            style="@style/Ibay"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            android:text=" BLACKPINK" />
+
+        <TextView
+            android:id="@+id/textView32"
+            style="@style/Ibay2"
+            android:layout_width="325dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginStart="19dp"
+            android:text='Jisoo, Jennie, Lisa, Rose. Their Songs are "Whistle", "Stay" and "Forever Young"' />
+
+        <ImageView
+            android:id="@+id/imageView68"
+            android:layout_width="186dp"
+            android:layout_height="79dp"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/bp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+        <TextView
+            android:id="@+id/textView20"
+            style="@style/Jan"
+            android:layout_width="121dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="17dp"
+            android:text=" TWICE" />
+
+        <TextView
+            android:id="@+id/textView21"
+            style="@style/Jan2"
+            android:layout_width="375dp"
+            android:layout_height="66dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="11dp"
+            android:text='Nayeon, Mina, Sana, Momo, Chaeyoung, Dahyun, Jeongyeon, Jihyo. Their songs are "What is Love" , "Likey" and "Heartshaker"' />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="192dp"
+            android:layout_height="69dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/twice" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3">
+
+        <TextView
+            android:id="@+id/textView50"
+            style="@style/Raf"
+            android:layout_width="211dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="23dp"
+            android:text="Red Velvet" />
+
+        <TextView
+            android:id="@+id/textView49"
+            style="@style/Raf2"
+            android:layout_width="354dp"
+            android:layout_height="61dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:text='Irene, Joy, Yeri, Seulgi, Wendy. Their songs are "Bad Boy", "Red Flavor" and "Power Up"' />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="142dp"
+            android:layout_height="103dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="27dp"
+            app:srcCompat="@drawable/redv" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
